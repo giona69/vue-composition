@@ -31,6 +31,8 @@ export default {
       console.log("mounted!");
       console.log(title);
       console.log(titleReactive);
+      const { title } = titleReactive;
+      console.log(title);
       console.log(titleDesc);
     });
 
