@@ -25,7 +25,7 @@ export default {
     const onButtonClick = () => {
       console.log("onButtonClick");
       addProduct("new product");
-      products.push("new product"); // it doesn't work because we put readonly
+      products.value.push("new product"); // it doesn't work because we put readonly
     };
 
     return { products, onButtonClick };
