@@ -10,7 +10,7 @@ export default function useProduct() {
 
   return {
     loading,
-    products: readonly(products.value),
+    products: readonly(products),
     addProduct
   };
 }
